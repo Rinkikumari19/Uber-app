@@ -1,38 +1,52 @@
-.App {
+
+.heading {
   text-align: center;
+  font-size: 23px;
+  background-color: bisque;
+  width: 100%;
+  height: 1000px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title{
+  padding-top: 35px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.riding-btn{
+  padding: 4px 25px;
+  font-size: 20px;
+  /* background-color: fuchsia; */
+  background: blueviolet;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.rendersBtn{
+  padding: 2px 15px;
+  margin-left: 20px;
+  background-color: gray;
 }
-
-.App-link {
-  color: #61dafb;
+.acc{
+  background-color: chartreuse;
+  padding: 1px 12px;
+  font-size: 17px;
 }
+.rej{
+  background-color: crimson;
+  padding: 1px 12px;
+  font-size: 17px;
+}
+.moneyPay{
+  padding: 3px 12px;
+  font-size: 18px;
+  background-color: darkturquoise;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.againR{
+  padding: 3px 12px;
+  font-size: 18px;
+  background-color: darkkhaki;
+}
+.accM{
+  padding: 3px 12px;
+  font-size: 18px;
+  background-color: fuchsia;
+  margin-top: 13px;
 }
